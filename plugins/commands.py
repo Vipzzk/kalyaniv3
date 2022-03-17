@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('MAIN CHANEL', url='https://t.me/PushpanOTT')
+                InlineKeyboardButton('⚡️ടെലിഗ്രാം പുഷ്പൻ⚡️', url='https://t.me/PushpanOTT')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Devaloper', url='https://t.me/vipzzk')
+            InlineKeyboardButton('⚡️ Main Channel⚡️', url='https://t.me/PushpanOTT'),
+            InlineKeyboardButton('⚡️ Main Group⚡️', url='https://t.me/RequestTP')
+            ],[
+            InlineKeyboardButton('⚙️𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿', url='https://t.me/vipzzk')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -87,8 +89,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/PushpanOTT')
+            InlineKeyboardButton('⚡️ Main Channel⚡️', url='https://t.me/PushpanOTT'),
+            InlineKeyboardButton('⚡️ Main Group⚡️', url='https://t.me/RequestTP')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
